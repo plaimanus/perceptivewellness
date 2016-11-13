@@ -81,10 +81,10 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-md-4 " ng-repeat="testimonial in header.Testimonials.testimonials">
+            <div class="col-md-4 " ng-repeat="testimonial in header.Testimonials.testimonials" ng-bind-html-unsafe="testimonial.quote">
                 <div class="box-testimony ">
-                    <blockquote class="to-animate-2">
-                        <p>{{testimonial.quote | limitTo : 400 }} ..</p>
+                    <blockquote class="to-animate-2" >
+                        <p >{{testimonial.quote | limitTo : 400 }} ..</p>
                     </blockquote>
                     <div class="img-circle">
                         <figure style="width: 60px; height: 60px"><img ng-src="images/girl.svg" alt="Person"> <div class="caption">~{{testimonial.name}}</div></figure>
@@ -101,18 +101,21 @@
                 <h2 class="to-animate">Recent Post</h2>
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 subtext to-animate">
-                        <h3> My Posts </h3>
+                        <h3> Perceptive Wellness Facebook </h3>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-4">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerceptiveWellness%2Fposts%2F949138305231033&width=100%&show_text=true&height=397&appId" width="100%" height="397" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> </div>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerceptiveWellness%2Fposts%2F958554820956048&width=350" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
             <div class="col-sm-4">
-                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerceptiveWellness%2Fposts%2F949138305231033&width=100%&show_text=true&height=397&appId" width="100%" height="397" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> </div>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerceptiveWellness%2Fposts%2F956378811173649&width=350" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
             <div class="col-sm-4">
-            <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerceptiveWellness%2Fposts%2F949138305231033&width=100%&show_text=true&height=397&appId" width="100%" height="397" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe> </div>
+                <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FPerceptiveWellness%2Fposts%2F950608708417326&width=350" width="350" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+            </div>
         </div>
 
     </div>
