@@ -27,8 +27,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2350">
-              <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="193">
+              <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -37,8 +37,8 @@
       <file leaf-file-name="partial-home.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/partial-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="247" column="129" selection-start-line="247" selection-start-column="129" selection-end-line="247" selection-end-column="129" />
+            <state relative-caret-position="152">
+              <caret line="162" column="66" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -167,7 +167,7 @@
       <option name="presentableId" value="Default" />
       <updated>1478917216864</updated>
       <workItem from="1478917218130" duration="707000" />
-      <workItem from="1479003795413" duration="1255000" />
+      <workItem from="1479003795413" duration="1940000" />
     </task>
     <task id="LOCAL-00001" summary="add git ignore">
       <created>1478917269992</created>
@@ -194,7 +194,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1962000" />
+    <option name="totallyTimeSpent" value="2647000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -257,16 +257,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2350">
-          <caret line="0" column="15" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="193">
+          <caret line="80" column="44" selection-start-line="80" selection-start-column="44" selection-end-line="80" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/partial-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="247" column="129" selection-start-line="247" selection-start-column="129" selection-end-line="247" selection-end-column="129" />
+        <state relative-caret-position="152">
+          <caret line="162" column="66" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
           <folding />
         </state>
       </provider>
