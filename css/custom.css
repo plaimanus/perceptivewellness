@@ -1,0 +1,103 @@
+
+nav > .nav-wrapper .mobile-toggle{
+  padding: 0 10px;
+}
+nav {
+  background-color: #ffffff;
+}
+nav  ul  a{
+  color:  #52d3aa;
+}
+.custom-side-nav li {
+  float: left !important;
+  line-height: 48px;
+  display: block;
+  width: 100%;
+}
+h3{
+  font-size: 1.7rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+@media only screen and (min-width: 993px){
+  .modal{
+  width:40%;
+  }
+  .modal-content section > .container {
+    width: 50%;
+  }
+}
+.about-page{
+  padding-top:60px;
+}
+.section-heading {
+  padding-bottom: 30px !important;
+  margin-bottom: 20px !important;
+}
+#perceptive-parallax h2 {
+  color: #fff;
+}
+#perceptive-parallax blockquote h4{
+  color: #fff;
+}
+#perceptive-parallax blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #429fe0;
+  border-left-style: double;
+}
+.collapsible-body {
+  display: none;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.collapsible-body li  a{
+  display: list-item;
+  border-bottom: 1px solid #ddd;
+  box-sizing: border-box;
+}
+ ul#aboutme{
+   position: absolute;
+   padding: 20px;
+   top: 45px;
+   right: 68px;
+   width: 165px;
+}
+ul#aboutme li{
+  display: flex;
+  width: 110px;
+  background-color: #009688;
+}
+ul#aboutme li:hover{
+  display: flex;
+  width: 115px;
+  background-color: #009688;
+}
+ul#aboutme li a{
+  display: flex;
+  width: 100%;
+  color: white;
+}
+#aboutaside .tabs{
+  height:auto;
+}
+#perceptive-contact .perceptive-contact-info li   {
+  position: relative;
+  padding: 0;
+  margin: 0 0 1.5em 0;
+  padding-left: 0 !important;
+  list-style: none;
+}
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+.thumbnail {
+  border: 9px solid #51d1ac;
+
+}
