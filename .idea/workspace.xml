@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfb87fe2-eaee-4c17-9511-fd0bb9161fa5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partial-home.html" afterPath="$PROJECT_DIR$/partial-home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/custom.css" afterPath="$PROJECT_DIR$/css/custom.css" />
     </list>
     <ignored path="perceptivewellness.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,16 +34,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="partial-home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="partial-home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/partial-home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="110" column="188" selection-start-line="110" selection-start-column="185" selection-end-line="110" selection-end-column="188" />
+            <state relative-caret-position="88">
+              <caret line="113" column="119" selection-start-line="113" selection-start-column="119" selection-end-line="113" selection-end-column="119" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -70,6 +80,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/partial-home.html" />
+        <option value="$PROJECT_DIR$/css/custom.css" />
       </list>
     </option>
   </component>
@@ -126,6 +137,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="perceptivewellness" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perceptivewellness" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="perceptivewellness" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,7 +246,7 @@
       <updated>1478917216864</updated>
       <workItem from="1478917218130" duration="707000" />
       <workItem from="1479003795413" duration="1940000" />
-      <workItem from="1479006452155" duration="2573000" />
+      <workItem from="1479006452155" duration="2812000" />
     </task>
     <task id="LOCAL-00001" summary="add git ignore">
       <created>1478917269992</created>
@@ -248,7 +273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5220000" />
+    <option name="totallyTimeSpent" value="5459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -347,13 +372,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partial-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="110" column="188" selection-start-line="110" selection-start-column="185" selection-end-line="110" selection-end-column="188" />
+        <state relative-caret-position="88">
+          <caret line="113" column="119" selection-start-line="113" selection-start-column="119" selection-end-line="113" selection-end-column="119" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#1;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#2;n#div#1;n#div#0;n#section#5;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

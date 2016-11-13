@@ -2,10 +2,21 @@
 nav > .nav-wrapper .mobile-toggle{
   padding: 0 10px;
 }
+nav .brand-logo {
+  position: absolute;
+  color: #52d3aa;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
+  white-space: nowrap;
+}
 nav {
   background-color: #ffffff;
 }
 nav  ul  a{
+  color:  #52d3aa;
+}
+nav a{
   color:  #52d3aa;
 }
 .custom-side-nav li {
