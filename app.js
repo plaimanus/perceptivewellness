@@ -16,11 +16,10 @@ perceptivewellness.config(function($stateProvider, $urlRouterProvider) {
             url: '/home',
             templateUrl: 'partial-home.html',
             controller: function ($scope ,header,$firebaseObject) {
-                var ref = firebase.database().ref('header');
+                var ref = firebase.database().ref('header/');
                 headerinit.core.initAll();
                 $('.parallax').parallax();
-
-
+                
                 ref.on("value", function(snapshot) {
 
                 $scope.header = snapshot.val();
@@ -72,7 +71,7 @@ perceptivewellness.config(function($stateProvider, $urlRouterProvider) {
 perceptivewellness.factory("header", ["$firebaseObject",
     function($firebaseObject) {
         // create a reference to the database location where we will store our data
-        var ref = firebase.database().ref('header');
+        var ref = firebase.database().ref('header/');
 
         // this uses AngularFire to create the synchronized array
         return $firebaseObject(ref);
