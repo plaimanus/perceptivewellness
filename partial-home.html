@@ -1,12 +1,6 @@
-<section ng-if="backgrounds" class="hidden-xs hidden-sm">
+<section ng-if="backgrounds" class="hidden-xs">
   <flickity items="backgrounds"></flickity>
 </section>
-
-<!--<div class="text-center">-->
-<!--<h3>{{header.link}}</h3>-->
-<!--<pre>{{ header | json }}</pre>-->
-<!--<p>This page {{header.message}}demonstrates <span class="text-danger">nested</span> views.</p>-->
-<!--</div>-->
 
 <section id="perceptive-about" data-section="about">
   <div class="container">
@@ -86,8 +80,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 " ng-repeat="testimonial in header.Testimonials.testimonials"
-           ng-bind-html-unsafe="testimonial.quote">
+      <div class="col-md-4 " ng-repeat="testimonial in header.Testimonials.testimonials" ng-bind-html-unsafe="testimonial.quote">
         <div class="box-testimony ">
           <blockquote class="to-animate-2">
             <p>{{testimonial.quote | limitTo : 400 }} ..</p>
@@ -98,6 +91,11 @@
             </figure>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="text-center">
+        <button class="btn btn-primary">More Testimonials</button>
       </div>
     </div>
   </div>
