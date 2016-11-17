@@ -1,0 +1,66 @@
+{
+  "Testimonials": {
+    "Heading": "This is what people talking about me",
+    "testimonials": [
+      {
+        "name": "Kendra",
+        "quote": "Brooke has introduced me and has guided me to a new and healthy way of eating  and living. With her encouragement I have stepped away from processed and empty  high calorie foods to try new whole, plant-based, quality foods such as kale, black  beans, bok choy, and coconut oil. These healthy, colorful and nutritious rich foods  and exercise regime have enabled me to lose over 15 pounds. She not only focuses  on guiding me to eat better, but she encourages me to live a more rounded healthy  life, incorporating exercise that works best for me, and cultivating meaningful social  relationships which reflect Brooke&#39;s special health coaching gift. Thank you!"
+      },
+      {
+        "name": "Angela",
+        "quote": "Doing the 10 day jumpstart cleanse was one of the best decisions I have made. With  Brooke&#39;s support and guidance, I was able to take my health to the next level with  clean eating and managing my weight. I lost 5 pounds within the first 5 days of the  cleanse. This is something I&#39;ve wanted to do for a long time and still can&#39;t believe I  did it. I eat very little, if any, processed food and I am conscious of labels more than  ever.  Brooke has taught me how to deal with sugar cravings, which are under  control today. I have more energy, I&#39;m am off all medications and sleep better than I  have in years.  Brooke was always there to answer questions and offer  encouragement, and still offers support and encouragement even after the program  has ended which is very cool. I highly recommend her to anyone looking to improve  their health and wellness"
+      },
+      {
+        "name": "Ashley",
+        "quote": "Brooke has been a helpful wellness coach for the last few months .  When I had  finals for graduate school last winter my sleeping became imbalanced.  She would  talk with me sometimes daily, listening to the history of my sleeping problems and  giving me advice on what to do. I started taking an all natural herb that helps me  relax and have a good night’s sleep called ashwagandha root. After a few weeks of  taking the herb and doing things to relax before bed I started falling asleep much  earlier and sleeping the whole night.  I would definitely refer Brooke as a wellness coach if you feel stuck in your life, and  may need support and healthy advice from someone who is well educated and  empathetic to your needs\"\""
+      }
+    ]
+  },
+  "about": {
+    "detail": "I am pumped  and driven to continue to transform the lives of my clients and future clients!",
+    "heading": "A changable holistic coaching method that encourages self empowerment and natural healing to \"balanced\" living through daily, step by step lifestyle changes.",
+    "icon": "image/brooke-icon.jpg",
+    "perceptive-person": "Brooke Rodgers",
+    "title": "Perceptivewellness Founder"
+  },
+  "footer": {
+    "message": "Perceptive Wellness All right preserve"
+  },
+  "getintouch": {
+    "heading": "Get In Touch",
+    "message": "Please contact me at anytime you want"
+  },
+  "parallax": {
+    "img": "https://firebasestorage.googleapis.com/v0/b/perceptivewellness.appspot.com/o/slide2.jpg?alt=media&token=1e14a609-8880-4e04-bec9-97680cb57764",
+    "quote": "I will guide you to find the food and lifestyle choices that best support you. I will also help you to make gradual, lifelong changes that enable you to reach your current and future health goals"
+  },
+  "slides": [
+    {
+      "img": "http://rocksolidhealth.com/wp-content/uploads/2015/10/healthy-living.jpg",
+      "message": "my message",
+      "position": "right-align",
+      "style": {
+        "background": "url(https://pbs.twimg.com/media/BMOkaMcCQAE_Jbh.png) no-repeat right top"
+      },
+      "subText": "my Text"
+    },
+    {
+      "img": "http://del.h-cdn.co/assets/15/53/2048x416/landing-wide-1451585981-healthy-header.jpg",
+      "message": "whatever you like?",
+      "position": "left-align",
+      "subText": "Schedule an initial nutrition and health consultation with me today!"
+    },
+    {
+      "img": "http://www.healthyrunningmom.com/wp-content/uploads/2016/03/cropped-header.png",
+      "message": "When was the last time you talked with someone about your health and received the personal attention you deserve?",
+      "position": "left-align",
+      "subText": "sign up Now!"
+    },
+    {
+      "img": "https://b.zmtcdn.com/data/collections/2fe115a396fa823c17e7dbced107c1d0_1460092298.jpg",
+      "message": "Let's Meet in person",
+      "position ": "left-align",
+      "subText": "Consult Free With me today!"
+    }
+  ]
+}

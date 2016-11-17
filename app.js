@@ -15,19 +15,21 @@ perceptivewellness.config(function($stateProvider, $urlRouterProvider) {
         .state('home', {
             url: '/home',
             templateUrl: 'partial-home.html',
-            controller: function ($scope ,header,$firebaseObject) {
+            controller: function ($scope ,$http) {
                 var ref = firebase.database().ref('header/');
                 headerinit.core.initAll();
                 $('.parallax').parallax();
-                
-                ref.on("value", function(snapshot) {
 
-                $scope.header = snapshot.val();
-                $scope.backgrounds = $scope.header.slides.map(function (o) {
-                     o.background = {'background-image': 'url("'+o.img+'")'};
-                    return o;
-                });
-                });
+                $http.get("data/header.json")
+                  .then(function(response) {
+                      $scope.header = response.data;
+                      $scope.backgrounds = $scope.header.slides.map(function (o) {
+                          o.background = {'background-image': 'url("'+o.img+'")'};
+                          return o;
+                      });
+                  });
+
+                
             }
         })
 
