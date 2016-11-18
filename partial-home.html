@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 col-md-offset-4">
+      <div class="col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2">
         <div class="perceptive-person text-center to-animate">
           <figure><img src="images/brooke-icon.jpg" alt="Image"></figure>
           <h3>{{header.about.name}}</h3>
@@ -43,7 +43,7 @@
   <div class="row">
     <div class="parallax-container" style="height:800px">
       <div parallax><img ng-src="{{header.parallax.img}}"></div>
-      <section class="col-md-5 col-md-offset-2  to-animate" style="padding: 80px;">
+      <section class="col-md-8 col-md-offset-2  to-animate" style="padding: 80px;">
         <h2 class="text-uppercase">
           No one diet works for everyone.
         </h2>
@@ -80,7 +80,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-4 " ng-repeat="testimonial in header.Testimonials.testimonials" ng-bind-html-unsafe="testimonial.quote">
+      <div class="col-md-4 " ng-repeat="testimonial in header.Testimonials.testimonials | limitTo :3" ng-bind-html-unsafe="testimonial.quote">
         <div class="box-testimony ">
           <blockquote class="to-animate-2">
             <p>{{testimonial.quote | limitTo : 400 }} ..</p>
@@ -95,7 +95,7 @@
     </div>
     <div class="row">
       <div class="text-center">
-        <button class="btn btn-primary">More Testimonials</button>
+        <button ui-sref="testimonials" class="btn btn-primary">More Testimonials</button>
       </div>
     </div>
   </div>

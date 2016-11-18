@@ -66,7 +66,24 @@ perceptivewellness.config(function($stateProvider, $urlRouterProvider) {
                 'aboutSection@about': { templateUrl: 'partial-about-mytraining.html' },
 
             }
+        })
+
+        .state('testimonials', {
+        url: '/testimonials',
+        templateUrl: 'partial-testimonials.html',
+        controller: function ($scope,$http) {
+            $http.get("data/header.json")
+              .then(function(response) {
+                  $scope.header = response.data;
+                  $scope.backgrounds = $scope.header.slides.map(function (o) {
+                      o.background = {'background-image': 'url("'+o.img+'")'};
+                      return o;
+                  });
+              });
+        }
         });
+
+
 
         
 });
